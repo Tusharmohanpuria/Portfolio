@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import Particle from "../ParticleEffect";
 import library from "../../Assets/Projects/library.png";
 import audioEqualizer from "../../Assets/Projects/audioEqualizer.png";
 import multilingualDictionary from "../../Assets/Projects/multilingualDictionary.png";
@@ -14,7 +14,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="gold">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.

@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+import Particle from "../ParticleEffect";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import Github from "./Github";
+import Github from "./GithubStats";
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Get to Know <strong className="purple">Me</strong>
+              Get to Know <strong className="gold">Me</strong>
             </h1>
             <AboutCard />
           </Col>
@@ -35,13 +35,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          My <strong className="purple">Skillset</strong>
+          My <strong className="gold">Skillset</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I Use
+          <strong className="gold">Tools</strong> I Use
         </h1>
         <Toolstack />
 

@@ -46,7 +46,7 @@ const AboutMe = () => {
           </Col>
           <Col md={4} className="avatar">
             <Tilt>
-              <img src={profileImage} className="img-fluid" alt="profile" />
+              <img src={profileImage} style={{maxHeight: "300px", borderRadius: "60%"}} className="img-fluid" alt="profile" />
             </Tilt>
           </Col>
         </Row>

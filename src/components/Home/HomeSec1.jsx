@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
+import homeLogo from "../../Assets/home.png";
+import AltLogo from "../../Assets/home-alt.svg";
+import Particle from "../ParticleEffect";
+import Home2 from "./HomeSec2";
 import Type from "./Type";
 
 function Home() {
@@ -33,9 +34,13 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="Tushar Mohanpuria"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = AltLogo;
+                }}
+                alt="Home Logo"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "500px" }}
               />
             </Col>
           </Row>

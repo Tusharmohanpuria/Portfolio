@@ -12,10 +12,10 @@ import logo from "../Assets/logo.png";
 
 const NavigationBar = () => {
   const [isExpanded, setExpanded] = useState(false);
-  const [isNavbarSticky, setNavbarSticky] = useState(false);
+  const [isNavbarposfixed, setNavbarposfixed] = useState(false);
 
   const handleScroll = () => {
-    setNavbarSticky(window.scrollY >= 20);
+    setNavbarposfixed(window.scrollY >= 20);
   };
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const NavigationBar = () => {
       expanded={isExpanded}
       fixed="top"
       expand="md"
-      className={isNavbarSticky ? "sticky" : "navbar"}
+      className={isNavbarposfixed ? "posfixed" : "navbar"}
     >
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">

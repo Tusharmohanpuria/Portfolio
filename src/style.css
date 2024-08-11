@@ -13,8 +13,7 @@ html {
 
   --imp-text-color: #c770f0;
 }
-
-.purple {
+.gold {
   color: var(--imp-text-color) !important;
 }
 
@@ -22,10 +21,7 @@ button:focus {
   box-shadow: none !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
-#preloader {
+#ploader {
   position: fixed;
   top: 0;
   left: 0;
@@ -38,7 +34,7 @@ button:focus {
   background-position: center;
 }
 
-#preloader-none {
+#ploader-none {
   opacity: 0;
 }
 
@@ -47,35 +43,25 @@ button:focus {
   height: 100vh;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
-
 ::-webkit-scrollbar {
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #2d1950;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
 }
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
-.sticky {
+.posfixed {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
@@ -205,14 +191,11 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -222,7 +205,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -237,7 +220,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }
@@ -257,11 +240,25 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+
+  animation: changeBackground 120s infinite; 
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: var(--image-gradient), url(./Assets/bg.png);
+  }
+  50% {
+    background-image: var(--image-gradient), url(./Assets/bg1.jpg);
+  }
+  100% {
+    background-image: var(--image-gradient), url(./Assets/bg.png);
+  }
 }
 
 .home-content {
@@ -398,9 +395,6 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
@@ -441,9 +435,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
-/* --------- */
-/* Projects */
-/* --------- */
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -538,10 +530,6 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
-
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -598,9 +586,6 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
 
 .resume-section {
   position: relative !important;

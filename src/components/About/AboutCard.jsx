@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello! I'm <span className="purple">Tushar Mohanpuria</span>, 
+            Hello! I'm <span className="gold">Tushar Mohanpuria</span>, 
             currently pursuing a B.Tech in Computer Science Engineering at the Indian Institute of Information Technology, Manipur.
             <br />
             I have a strong interest in software development and cybersecurity, with hands-on experience in ethical hacking and penetration testing.
@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Reading Novels
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Animation & Movies
+              <ImPointRight /> Watching Anime or Movies
             </li>
           </ul>
 
