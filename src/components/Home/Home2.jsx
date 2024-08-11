@@ -1,103 +1,92 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import profileImage from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+const AboutMe = () => {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ALLOW ME TO <span className="highlight">INTRODUCE</span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            <p className="body-text">
+              My adventure in programming has been filled with discovery and enthusiasm, and I've built a versatile skill set along the way.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I specialize in languages such as
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="highlight"> C++, JavaScript, and Python.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am drawn to crafting cutting-edge
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="highlight"> Web Technologies and Solutions </b>
+              </i>
+              and am intrigued by domains like
+              <i>
+                <b className="highlight"> Artificial Intelligence and Machine Learning. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My passion lies in developing applications using
+              <b className="highlight"> React.js</b> and the
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
+                <b className="highlight"> MERN Stack</b>
+              </i>, while also exploring frameworks like
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="highlight"> Next.js</b>
+              </i>.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="avatar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={profileImage} className="img-fluid" alt="profile" />
             </Tilt>
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+        </Row>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <Row>
+          <Col md={12} className="social-links">
+            <h1>LET'S CONNECT</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              I'm eager to connect, share ideas, or discuss exciting tech projects!
             </p>
-            <ul className="home-about-social-links">
+            <ul className="social-icon-lists">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Tusharmohanpuria"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.linkedin.com/in/tusharmohanpuria"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/tusharmohanpuria"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -112,4 +101,5 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+
+export default AboutMe;

@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Aim to create solutions that make a meaningful impact!"
+            "Crafting Code, Securing Tomorrow"
           </p>
           <footer className="blockquote-footer">Tushar</footer>
         </blockquote>

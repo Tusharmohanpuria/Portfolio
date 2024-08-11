@@ -9,39 +9,39 @@ const Footer = () => {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-content">
-          <h3>Created by Tushar Mohanpuria</h3>
+        <Col md="4" className="footer-copywright">
+          <h3>Created and Built by Tushar Mohanpuria</h3>
         </Col>
-        <Col md="4" className="footer-content">
-          <h3>© {currentYear} All Rights Reserved</h3>
+        <Col md="4" className="footer-copywright">
+          <h3>&#169; {currentYear} TM. All Rights Reserved.</h3>
         </Col>
-        <Col md="4" className="footer-links">
-          <ul className="social-list">
-            <li className="social-item">
+        <Col md="4" className="footer-body">
+          <ul className="footer-icons">
+            <li className="social-icons">
               <a
                 href="https://github.com/tusharmohanpuria"
-                className="social-link"
-                target="_blank"
+                style={{ color: "white" }}
+                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-item">
+            <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/tushar-mohanpuria/"
-                className="social-link"
-                target="_blank"
+                style={{ color: "white" }}
+                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-item">
+            <li className="social-icons">
               <a
                 href="https://www.instagram.com/tusharmohanpuria/"
-                className="social-link"
-                target="_blank"
+                style={{ color: "white" }}
+                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

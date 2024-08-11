@@ -1,22 +1,23 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+const TypingEffect = () => {
   return (
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "Software Engineer",
+          "Frontend Engineer",
+          "MERN Stack Specialist",
+          "Backend Engineer",
+          ""
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 60,
       }}
     />
   );
 }
 
-export default Type;
+export default TypingEffect;

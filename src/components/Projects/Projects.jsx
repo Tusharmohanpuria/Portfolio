@@ -38,7 +38,7 @@ function Projects() {
               title="Audio Equalizer Application"
               description="An audio equalizer with file support that reduces processing time by 30%. It offers fine-tuning across multiple frequency bands, improving audio equalization precision and user comprehension with playback and visualization features."
               ghLink="https://github.com/Tusharmohanpuria/Audio-Equilizer"
-              demoLink="#"
+
             />
           </Col>
 
@@ -49,7 +49,6 @@ function Projects() {
               title="Multilingual Dictionary"
               description="A web application providing word translations and definitions in multiple languages. It enhances user experience with a responsive interface, rich language features, and accurate image displays for user queries."
               ghLink="https://github.com/Tusharmohanpuria/Multilingual-Dictionary"
-              demoLink="#"
             />
           </Col>
 
