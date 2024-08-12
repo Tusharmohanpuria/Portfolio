@@ -45,13 +45,10 @@ Before you begin, ensure you have the following installed on your system:
 
 To run the project on your local machine:
 
-1. **Change Vite Configuration (vite.config.js) remove or comment base:**
-   ```bash
-   // base: '/Portfolio/',
-2. **Start the development server:**
+1. **Start the development server:**
    ```bash
    npm run dev
-3. **Open your browser and visit:**
+2. **Open your browser and visit:**
    ```bash
    https://localhost:5173/
 
