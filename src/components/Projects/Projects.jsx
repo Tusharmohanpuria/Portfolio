@@ -20,6 +20,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={handwrite2type}
+              isBlog={false}
+              title="HandWrite2Type"
+              description="HandWrite2Type is a web application that generates personalized fonts from handwritten samples, converts documents between PDF and Word formats, and summarizes text documents. Built with ReactJS and Flask, it uses image processing, contour detection, and the FontForge library for font generation, while leveraging NLP techniques for text summarization."
+              ghLink="https://github.com/Tusharmohanpuria/handwrite2type"
+              demoLink="https://www.youtube.com/watch?v=4afRhcApeOw&feature=youtu.be"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieExplorer}
+              isBlog={false}
+              title="Movie Explorer"
+              description="The Movie Explorer application was developed using a client-server architecture. The server-side was implemented using Node.js with Express.js framework, while the client-side was developed using React.js library."
+              ghLink="https://github.com/Tusharmohanpuria/Movie-Explorer"
+              demoLink="https://movie-explorer-1-p91x.onrender.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={library}
@@ -52,27 +74,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={handwrite2type}
-              isBlog={false}
-              title="HandWrite2Type"
-              description="HandWrite2Type is a web application that generates personalized fonts from handwritten samples, converts documents between PDF and Word formats, and summarizes text documents. Built with ReactJS and Flask, it uses image processing, contour detection, and the FontForge library for font generation, while leveraging NLP techniques for text summarization."
-              ghLink="https://github.com/Tusharmohanpuria/handwrite2type"
-              demoLink="https://www.youtube.com/watch?v=4afRhcApeOw&feature=youtu.be"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={movieExplorer}
-              isBlog={false}
-              title="Movie Explorer"
-              description="The Movie Explorer application was developed using a client-server architecture. The server-side was implemented using Node.js with Express.js framework, while the client-side was developed using React.js library."
-              ghLink="https://github.com/Tusharmohanpuria/Movie-Explorer"
-              demoLink="https://movie-explorer-1-p91x.onrender.com/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
