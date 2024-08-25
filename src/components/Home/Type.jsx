@@ -10,11 +10,14 @@ const TypingEffect = () => {
           "Frontend Engineer",
           "MERN Stack Specialist",
           "Backend Engineer",
-          ""
+          "Full-Stack Developer",
+          "Cybersecurity Enthusiast",
+          "React.js Expert",
+          "Innovator in Web Technologies"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 60,
+        deleteSpeed: 60
       }}
     />
   );
