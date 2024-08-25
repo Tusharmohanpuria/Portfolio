@@ -42,11 +42,17 @@ const AboutMe = () => {
               <i>
                 <b className="highlight"> Next.js</b>
               </i>.
+              <br />
+              <br />
+              Currently, I am actively seeking internships in
+              <i>
+                <b className="highlight"> Software Development and Cybersecurity</b>
+              </i> to further enhance my skills and contribute to innovative projects.
             </p>
           </Col>
           <Col md={4} className="avatar">
             <Tilt>
-              <img src={profileImage} style={{maxHeight: "300px", borderRadius: "60%"}} className="img-fluid" alt="profile" />
+              <img src={profileImage} style={{ maxHeight: "300px", borderRadius: "60%" }} className="img-fluid" alt="profile" />
             </Tilt>
           </Col>
         </Row>
