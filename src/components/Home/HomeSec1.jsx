@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home.png";
+import homeLogo from "../../Assets/home.webp";
 import AltLogo from "../../Assets/home-alt.svg";
 import Particle from "../ParticleEffect";
 import Home2 from "./HomeSec2";

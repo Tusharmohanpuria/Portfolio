@@ -8,7 +8,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.webp";
 
 const NavigationBar = () => {
   const [isExpanded, setExpanded] = useState(false);

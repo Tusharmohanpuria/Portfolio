@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../ParticleEffect";
-import library from "../../Assets/Projects/library.png";
-import audioEqualizer from "../../Assets/Projects/audioEqualizer.png";
-import multilingualDictionary from "../../Assets/Projects/multilingualDictionary.png";
-import handwrite2type from "../../Assets/Projects/handwrite2type.png";
-import movieExplorer from "../../Assets/Projects/movieExplorer.png";
+import library from "../../Assets/Projects/library.webp";
+import audioEqualizer from "../../Assets/Projects/audioEqualizer.webp";
+import multilingualDictionary from "../../Assets/Projects/multilingualDictionary.webp";
+import handwrite2type from "../../Assets/Projects/handwrite2type.webp";
+import movieExplorer from "../../Assets/Projects/movieExplorer.webp";
 
 function Projects() {
   return (
