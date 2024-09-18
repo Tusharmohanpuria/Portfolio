@@ -1,120 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Basic Meta Tags -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Explore Tushar Mohanpuria's portfolio, a final-year student at IIIT Manipur. Discover projects in full-stack development and cybersecurity. Actively seeking internships to apply my skills and drive innovation.">
-  <meta name="keywords" content="Tushar Mohanpuria, software developer, cybersecurity, web development, React, MERN stack, full-stack developer, IIIT Manipur, final-year student, internship">
-  <meta name="author" content="Tushar Mohanpuria">
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow">
-  <meta name="bingbot" content="index, follow">
-  <meta name="revisit-after" content="7 days">
-  
-  <!-- Open Graph Meta Tags (for social media sharing) -->
-  <meta property="og:title" content="Tushar Mohanpuria - Software Developer Portfolio">
-  <meta property="og:description" content="Explore the portfolio of Tushar Mohanpuria, a final-year student at IIIT Manipur. Discover projects, skills, and experience in full-stack development and cybersecurity. Seeking internships to apply my expertise and drive innovation.">
-  <meta property="og:image" content="/portfolio-thumbnail.webp">
-  <meta property="og:url" content="https://tusharmohanpuria.github.io/Portfolio/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Tushar Mohanpuria Portfolio">
-  
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tushar Mohanpuria - Portfolio">
-  <meta name="twitter:description" content="Explore Tushar Mohanpuria's portfolio, a final-year student at IIIT Manipur. Discover work in full-stack development and cybersecurity, and my search for internships."> 
-  <meta name="twitter:image" content="/portfolio-thumbnail.webp">
-  <meta name="twitter:site" content="@TusharM_2003">
-  
-  <!-- Canonical Link -->
-  <link rel="canonical" href="https://tusharmohanpuria.github.io/Portfolio/">
-  
-  <!-- Structured Data (JSON-LD for Rich Snippets) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Tushar Mohanpuria",
-    "url": "https://tusharmohanpuria.github.io/Portfolio/",
-    "sameAs": [
-      "https://github.com/Tusharmohanpuria",
-      "https://www.linkedin.com/in/tushar-mohanpuria/",
-      "https://x.com/TusharM_2003"
-    ],
-    "email": "tusharmohanpuria2003@gmail.com",
-    "jobTitle": "Final Year Student",
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Indian Institute of Information Technology, Manipur"
-    },
-    "knowsAbout": ["Full-Stack Development", "Cybersecurity", "MERN Stack", "React", "Node.js"],
-    "image": "/portfolio-thumbnail.webp"
-  }
-  </script>
-  
-  <!-- Favicon -->
-  <link rel="icon" href="/Portfolio/favicon.ico" type="image/x-icon">
+  <head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="/src/assets/styles/main.css">
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Explore Tushar Mohanpuria's portfolio, a final-year student at IIIT Manipur. Discover projects in full-stack development and cybersecurity. Actively seeking internships to apply my skills and drive innovation."
+    />
+    <meta
+      name="keywords"
+      content="Tushar Mohanpuria, software developer, cybersecurity, web development, React, MERN stack, full-stack developer, IIIT Manipur, final-year student, internship"
+    />
+    <meta name="author" content="Tushar Mohanpuria" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
 
-  <!-- Title -->
-  <title>Tushar Mohanpuria - Portfolio</title>
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta
+      property="og:title"
+      content="Tushar Mohanpuria - Software Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Tushar Mohanpuria, a final-year student at IIIT Manipur. Discover projects, skills, and experience in full-stack development and cybersecurity. Seeking internships to apply my expertise and drive innovation."
+    />
+    <meta property="og:image" content="/portfolio-thumbnail.webp" />
+    <meta
+      property="og:url"
+      content="https://tusharmohanpuria.github.io/Portfolio/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tushar Mohanpuria Portfolio" />
 
-  <script type="text/javascript">
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-        );
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tushar Mohanpuria - Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Tushar Mohanpuria's portfolio, a final-year student at IIIT Manipur. Discover work in full-stack development and cybersecurity, and my search for internships."
+    />
+    <meta name="twitter:image" content="/portfolio-thumbnail.webp" />
+    <meta name="twitter:site" content="@TusharM_2003" />
+
+    <!-- Canonical Link -->
+    <link
+      rel="canonical"
+      href="https://tusharmohanpuria.github.io/Portfolio/"
+    />
+
+    <!-- Structured Data (JSON-LD for Rich Snippets) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tushar Mohanpuria",
+        "url": "https://tusharmohanpuria.github.io/Portfolio/",
+        "sameAs": [
+          "https://github.com/Tusharmohanpuria",
+          "https://www.linkedin.com/in/tushar-mohanpuria/",
+          "https://x.com/TusharM_2003"
+        ],
+        "email": "tusharmohanpuria2003@gmail.com",
+        "jobTitle": "Final Year Student",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Indian Institute of Information Technology, Manipur"
+        },
+        "knowsAbout": [
+          "Full-Stack Development",
+          "Cybersecurity",
+          "MERN Stack",
+          "React",
+          "Node.js"
+        ],
+        "image": "/portfolio-thumbnail.webp"
       }
-    }(window.location))
-  </script>
-  <script type="module" crossorigin src="/Portfolio/assets/index-ClfhFCen.js"></script>
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/chroma-js-CXQBvTgr.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-CJ2zigZR.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/scheduler-DVkWbdCY.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-dom-C8HbofGz.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/@remix-run-Cfk2N_Fa.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-router-BprjBNas.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-router-dom-ChWsH21G.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-icons-C2FTvmpg.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/classnames-38Yxsl3p.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/@babel-D1VaN7IU.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/invariant-BdkvhyH5.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-lifecycles-compat-DLnnH8OA.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/uncontrollable-BSh1iMfz.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/dom-helpers-CqapPgNx.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/@restart-3DgKTW37.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/prop-types-extra-C_pISDCC.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/prop-types-ldeiszza.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-transition-group-J9YoBCz-.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-bootstrap-OjLmk9Ss.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/tsparticles-engine-Shrh_gqa.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-tsparticles-BOM8OTRb.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/@tsparticles-D6JMvKxq.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/tsparticles-2oB5GpZ7.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-parallax-tilt-Cd75k-Zf.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/typewriter-effect-BdoPVrbY.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/date-fns-Cy0bbswk.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-activity-calendar-CQHPw3Sd.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-github-calendar-CGWIXwHc.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/pdfjs-dist-_pyej87P.js">
-  <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-pdf-BLDGqDUH.js">
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/react-pdf-BpazIcXQ.css">
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-DViiSSxT.css">
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/bootstrap-CB61jlRJ.css">
-</head>
-<body>
-  <div id="root"></div>
+    </script>
 
-  <!-- Scripts -->
-</body>
+    <!-- Favicon -->
+    <link rel="icon" href="/Portfolio/favicon.ico" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/src/assets/styles/main.css" />
+
+    <!-- Title -->
+    <title>Tushar Mohanpuria - Portfolio</title>
+
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/Portfolio/assets/index-D4MHXjXJ.js"></script>
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/chroma-js-Mqs6zPX_.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-BC83niuL.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/scheduler-B6OjNCC-.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-dom-Ck818U0h.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/@remix-run-CoNSD3dQ.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-router-Df2Nvr7h.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-router-dom-Djm7QWs8.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-icons-DCfgfVKS.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/classnames-CVwsCOMe.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/@babel-D9iMkyjV.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/invariant-SVz58gkP.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-lifecycles-compat-4y-h7wcf.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/uncontrollable-BftuFxej.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/dom-helpers-DRPis2I7.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/@restart-ClqoKX4x.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/prop-types-extra-DqX-zjH5.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/prop-types-Cnfrh1EF.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-transition-group-avyKZd0e.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-bootstrap-BMlfAXUe.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/tsparticles-engine-DH_l6TIw.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-tsparticles-umdmpBUS.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/@tsparticles-CWV2LPcg.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/tsparticles-BaJztORa.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-parallax-tilt-DVmhy3Tm.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/typewriter-effect-DaEhXABo.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/date-fns-jpnp8RbQ.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-activity-calendar-DnXJRSVc.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-github-calendar-Dc6HbGPH.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/pdfjs-dist-C1VhFu0S.js">
+    <link rel="modulepreload" crossorigin href="/Portfolio/assets/react-pdf-b8INgIrC.js">
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/react-pdf-BpazIcXQ.css">
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-DViiSSxT.css">
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/bootstrap-CB61jlRJ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Scripts -->
+  </body>
 </html>
