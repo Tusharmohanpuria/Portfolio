@@ -2,7 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImage from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const AboutMe = () => {
@@ -15,22 +19,24 @@ const AboutMe = () => {
               ALLOW ME TO <span className="highlight">INTRODUCE</span> MYSELF
             </h1>
             <p className="body-text">
-              My adventure in programming has been filled with discovery and enthusiasm, and I've built a versatile skill set along the way.
+              My adventure in programming has been filled with discovery and
+              enthusiasm, and I've built a versatile skill set along the way.
               <br />
-              <br />
-              I specialize in languages such as
+              <br />I specialize in languages such as
               <i>
                 <b className="highlight"> C++, JavaScript, and Python.</b>
               </i>
               <br />
-              <br />
-              I am drawn to crafting cutting-edge
+              <br />I am drawn to crafting cutting-edge
               <i>
                 <b className="highlight"> Web Technologies and Solutions </b>
               </i>
               and am intrigued by domains like
               <i>
-                <b className="highlight"> Artificial Intelligence and Machine Learning. </b>
+                <b className="highlight">
+                  {" "}
+                  Artificial Intelligence and Machine Learning.{" "}
+                </b>
               </i>
               <br />
               <br />
@@ -38,26 +44,37 @@ const AboutMe = () => {
               <b className="highlight"> React.js</b> and the
               <i>
                 <b className="highlight"> MERN Stack</b>
-              </i>, while also exploring frameworks like
+              </i>
+              , while also exploring frameworks like
               <i>
                 <b className="highlight"> Next.js</b>
-              </i>.
+              </i>
+              .
               <br />
               <br />
               Currently, I am actively seeking internships in
               <i>
-                <b className="highlight"> Software Development and Cybersecurity</b>
-              </i> to further enhance my skills and contribute to innovative projects.
+                <b className="highlight">
+                  {" "}
+                  Software Development and Cybersecurity
+                </b>
+              </i>{" "}
+              to further enhance my skills and contribute to innovative
+              projects.
             </p>
           </Col>
           <Col md={4} className="avatar">
             <Tilt>
-              <img src={profileImage} style={{ maxHeight: "300px", borderRadius: "60%" }} className="img-fluid" alt="profile" />
+              <img
+                src={profileImage}
+                style={{ maxHeight: "300px", borderRadius: "60%" }}
+                className="img-fluid"
+                alt="profile"
+              />
             </Tilt>
           </Col>
         </Row>
-        <Row>
-        </Row>
+        <Row></Row>
         <br />
         <br />
         <hr />
@@ -67,7 +84,8 @@ const AboutMe = () => {
           <Col md={12} className="social-links">
             <h1>LET'S CONNECT</h1>
             <p>
-              I'm eager to connect, share ideas, or discuss exciting tech projects!
+              I'm eager to connect, share ideas, or discuss exciting tech
+              projects!
             </p>
             <ul className="social-icon-lists">
               <li className="social-icons">
@@ -106,6 +124,6 @@ const AboutMe = () => {
       </Container>
     </Container>
   );
-}
+};
 
 export default AboutMe;

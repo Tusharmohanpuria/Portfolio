@@ -55,7 +55,9 @@ const ParticleEffect = () => {
     detectRetina: true,
   };
 
-  return <Particles id="particles" init={particlesInit} options={particleOptions} />;
+  return (
+    <Particles id="particles" init={particlesInit} options={particleOptions} />
+  );
 };
 
 export default ParticleEffect;

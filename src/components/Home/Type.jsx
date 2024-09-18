@@ -13,14 +13,14 @@ const TypingEffect = () => {
           "Full-Stack Developer",
           "Cybersecurity Enthusiast",
           "React.js Expert",
-          "Innovator in Web Technologies"
+          "Innovator in Web Technologies",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 60
+        deleteSpeed: 60,
       }}
     />
   );
-}
+};
 
 export default TypingEffect;

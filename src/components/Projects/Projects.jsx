@@ -21,7 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={handwrite2type}
               isBlog={false}
@@ -60,7 +60,6 @@ function Projects() {
               title="Audio Equalizer Application"
               description="An audio equalizer with file support that reduces processing time by 30%. It offers fine-tuning across multiple frequency bands, improving audio equalization precision and user comprehension with playback and visualization features."
               ghLink="https://github.com/Tusharmohanpuria/Audio-Equilizer"
-
             />
           </Col>
 
@@ -85,7 +84,6 @@ function Projects() {
               demoLink="https://frontend-sample-5fzu.onrender.com/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

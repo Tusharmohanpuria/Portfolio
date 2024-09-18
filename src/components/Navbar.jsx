@@ -49,7 +49,11 @@ const NavigationBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/about" onClick={() => setExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => setExpanded(false)}
+              >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
@@ -68,7 +72,11 @@ const NavigationBar = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/resume" onClick={() => setExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => setExpanded(false)}
+              >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>

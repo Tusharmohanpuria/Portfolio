@@ -246,7 +246,7 @@ button:focus {
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 
-  animation: changeBackground 120s infinite; 
+  animation: changeBackground 120s infinite;
 }
 
 @keyframes changeBackground {

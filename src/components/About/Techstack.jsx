@@ -2,7 +2,13 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiJavascript1, DiReact, DiNodejs, DiPython } from "react-icons/di";
-import { SiMongodb, SiMysql, SiNextdotjs, SiHtml5, SiCss3 } from "react-icons/si";
+import {
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+} from "react-icons/si";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 import { FiDatabase } from "react-icons/fi";
 
