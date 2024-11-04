@@ -38,3 +38,5 @@ jobs:
         with:
           name: production-files
           path: ./dist
+      - name: Deploy to server
+        run: echo "Deploying to production environment"
