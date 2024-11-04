@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../ParticleEffect";
-import pdf from "../../Assets/resume.pdf";
-import image from "../../Assets/resume.webp";
+import ResumePdf from "../../Assets/resume.pdf";
+import ResumeImage from "../../Assets/resume.webp";
 import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -22,7 +22,7 @@ function ResumeNew() {
   const downloadButton = (
     <Button
       variant="primary"
-      href={pdf}
+      href={ResumePdf}
       target="_blank"
       style={{ maxWidth: "250px" }}
     >
@@ -41,7 +41,7 @@ function ResumeNew() {
 
         <Row className="resume">
           <img
-            src={image}
+            src={ResumeImage}
             alt="resume"
             className="d-flex justify-content-center"
             style={{ width: "92%", maxWidth: width > 768 ? "70%" : "90%" }}
